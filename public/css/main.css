@@ -186,19 +186,24 @@ nav {
 /** hero section **/
 
 .hero-section {
+  background-image: url(/public/assets/images/hero/david-underland.jpg);
+  background-size: 500px;
+  background-repeat: no-repeat;
   display: flex;
+  justify-content: center;  
   margin: 2px -21px;
   padding: 0px 0px 0px 2px;
 }
 
 .hero-content {
-  position: absolute;
+  position: relative;
   background-color: #fff;
-  opacity: 0.6;
-  width: 100%;
-  bottom: 269px;
-  left: 1px;
+  opacity: 0.2;
+  width: 99%;
+  bottom: 0;
+  left: 0px;
   text-align: center;
+
 }
 
 .hero-img {
