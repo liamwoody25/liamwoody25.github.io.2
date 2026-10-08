@@ -239,7 +239,7 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 18px;
-  /* animation: slide-right 10s infinite; */
+  animation: slide-right 10s infinite;
 }
 
 
