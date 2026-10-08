@@ -126,7 +126,7 @@ a {
 /**** body ****/
 
 .container {
-  width: 90%;
+  width: 92%;
   margin: 0 auto;
 }
 
@@ -147,8 +147,6 @@ header {
   background-color: var(--deep-space-blue);
   margin: 0 -19px;
   box-shadow: 0 0px 4px 4px black;
-  position: fixed;
-  width: 98%;
   bottom: 502px;
 }
 
@@ -189,7 +187,7 @@ nav {
 
 .hero-section {
   display: flex;
-  margin: 73px -21px;
+  margin: 2px -21px;
   padding: 0px 0px 0px 2px;
 }
 
@@ -197,8 +195,8 @@ nav {
   position: absolute;
   background-color: #fff;
   opacity: 0.6;
-  width: 99%;
-  bottom: 277px;
+  width: 100%;
+  bottom: 269px;
   left: 1px;
   text-align: center;
 }
@@ -218,14 +216,13 @@ nav {
 
 #skills-section {
   background-color: var(--yale-blue);
-  padding: 49px 0px 29px 10px;
-  margin: 77px -19px;
+  padding: 49px 0px 29px 0px;
+  margin: -1px -19px;
   text-align: center;
 }
 
 .skills-heading {
   padding: 25px;
-  margin: 0 -9px;
   background-color: var(--blue-green);
 }
 
