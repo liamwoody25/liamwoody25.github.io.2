@@ -1,0 +1,382 @@
+/**** colours ****/
+* {
+  --blue-green: #4598BEff;
+  --ocean-blue: #078FC9ff;
+  --deep-space-blue: #022845ff;
+  --baltic-blue: #365C86ff;
+  --yale-blue: #1A4164ff;
+}
+
+/**** colours ****/
+
+
+
+
+/**** typography ****/
+
+* {
+  font-family: 'Clarity-city', sans-serif;
+}
+
+
+h1 {
+  color: var(--ocean-blue);
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 31px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #7dc5de;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #7dc5de;
+}
+
+p {
+  line-height: 20px;
+  margin-bottom: 4px;
+  
+}
+
+/**** typography ****/
+
+
+
+
+
+/**** components ****/
+
+.ham-burger {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.burger-bar {
+  position: absolute;
+  width: 60%;
+  background-color: var(--ocean-blue);
+  height: 5px;
+  border-radius: 25px;
+  bottom: 29px;
+  transform: translate(13%, -50%);
+  transition-property: transform,;
+  transition-duration: .9s;
+}
+
+.bar-center {
+  top: 24px;
+}
+
+.bar-bottom {
+  top: 33px;
+}
+
+.ham-burger.active .bar-top {
+  transform: translate(10%, 2%) rotate(-315deg);
+  top: 24px;
+}
+
+.ham-burger.active .bar-center {
+  opacity: 0;
+}
+
+.ham-burger.active .bar-bottom {
+  transform: translate(13%, 80%) rotate(-225deg);
+  top: 20px;
+}
+
+/*** a tag / links ***/
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+.project-content .link {
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 8px;
+  color: var(--blue-green);
+  border: 2px solid var(--blue-green);
+}
+
+/**** components ****/
+
+
+
+/**** body ****/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
+/**** header ****/
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--deep-space-blue);
+  margin: 0 -19px;
+  box-shadow: 0 0px 4px 4px black;
+  position: fixed;
+  width: 98%;
+  bottom: 502px;
+}
+
+.left-screen-menu {
+  background-color: var(--deep-space-blue);
+  width: 350px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -355px;
+  position: fixed;
+  top: 66px;
+  transition-property: right;
+  transition-duration: .9s;
+  transition-timing-function: ease-in-out;
+}
+
+.left-screen-menu.active {
+  right: 0;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+/**** header ****/
+
+
+
+
+
+
+/**** main section ****/
+
+/** hero section **/
+
+.hero-section {
+  display: flex;
+  margin: 73px -21px;
+  padding: 0px 0px 0px 2px;
+}
+
+.hero-content {
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.6;
+  width: 99%;
+  bottom: 277px;
+  left: 1px;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/** hero section **/
+
+
+
+
+
+/** skills section **/
+
+#skills-section {
+  background-color: var(--yale-blue);
+  padding: 49px 0px 29px 10px;
+  margin: 77px -19px;
+  text-align: center;
+}
+
+.skills-heading {
+  padding: 25px;
+  margin: 0 -9px;
+  background-color: var(--blue-green);
+}
+
+
+.top-skills {
+  width: 100%;
+  padding: 0px 0 28px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.top-skills-slide,
+.bottom-tools-slide {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  /* animation: slide-right 10s infinite; */
+}
+
+
+@keyframes slide-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+.bottom-tools {
+  white-space: nowrap;
+  gap: 30px;
+  padding: 30px 0 0 0;
+  overflow: hidden;
+}
+
+.html5-icon,
+.css-icon,
+.javascript-icon {
+ margin: 0 10px;
+  height: 40px;
+}
+
+.git-icon,
+.github-icon,
+.vscode-icon {
+  width: 40px;
+}
+
+/** skills section **/
+
+
+
+
+/** About Me section **/
+
+#About-Me {
+  background-color: var(--baltic-blue);
+  padding: 60px 9px;
+  margin: 0 -20px;
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+} 
+
+
+.about-me-text-content > h2 {
+   text-align: center;
+}
+
+.about-me-text-content > p {
+  color: #DEE2E6;
+}
+
+.about-me-img {
+  width: 90%;
+  object-fit: contain;
+}
+
+/** About Me section **/
+
+
+
+
+
+/** projects section **/
+
+#Projects{
+  padding: 60px 9px;
+  margin: 0 -20px;
+  background-color: var(--deep-space-blue);
+}
+
+.project-text-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-text-content > p {
+  color: #DEE2E6;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-cards .project-card {
+  width: 98%;
+  background-color: #DEE2E6;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+.project-content {
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 97%;
+  border-radius: 5px;
+  bottom: 2px;
+  z-index: -1;
+  left: 1px;
+}
+
+.project-content > p {
+  text-align: center;
+}
+
+.project-card:hover .project-content {
+  position: absolute;
+  z-index: 1;
+  background-color: #DEE2E6;
+  transition-duration: .8s;
+  transition-timing-function: ease-in-out;
+ 
+}
+
+.project-card-img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 5px;
+}
+
