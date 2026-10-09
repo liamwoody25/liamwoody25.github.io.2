@@ -1,5 +1,5 @@
 /**** colours ****/
-* {
+:root {
   --blue-green: #4598BEff;
   --ocean-blue: #078FC9ff;
   --deep-space-blue: #022845ff;
@@ -23,6 +23,7 @@ h1 {
   color: var(--ocean-blue);
   font-size: 30px;
   font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 10px;
 }
 
 h2 {
@@ -30,7 +31,7 @@ h2 {
   font-size: 28px;
   line-height: 31px;
   font-family: 'Roboto Condensed', sans-serif;
-  color: #7dc5de;
+  color: #042c4a;
 }
 
 h3 {
@@ -42,7 +43,7 @@ h3 {
 p {
   line-height: 20px;
   margin-bottom: 4px;
-  
+  font-size: 16px;
 }
 
 /**** typography ****/
@@ -126,7 +127,7 @@ a {
 /**** body ****/
 
 .container {
-  width: 92%;
+  width: 89%;
   margin: 0 auto;
 }
 
@@ -142,12 +143,13 @@ body {
 header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--deep-space-blue);
   margin: 0 -19px;
   box-shadow: 0 0px 4px 4px black;
   bottom: 502px;
+  gap: 10px;
 }
 
 .left-screen-menu {
@@ -186,12 +188,12 @@ nav {
 /** hero section **/
 
 .hero-section {
-  background-image: url('/public/assets/images/hero/david-underland.jpg');
+  background-image: url(/public/assets/images/hero/david-underland.jpg);
   background-size: 500px;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;  
-  margin: 2px -21px;
+  margin: 0px -21px;
   padding: 0px 0px 0px 2px;
 }
 
@@ -203,7 +205,6 @@ nav {
   bottom: 0;
   left: 0px;
   text-align: center;
-
 }
 
 .hero-img {
@@ -222,7 +223,7 @@ nav {
 #skills-section {
   background-color: var(--yale-blue);
   padding: 49px 0px 29px 0px;
-  margin: -1px -19px;
+  margin: -1px -21px;
   text-align: center;
 }
 
@@ -288,7 +289,7 @@ nav {
 #About-Me {
   background-color: var(--baltic-blue);
   padding: 60px 9px;
-  margin: 0 -20px;
+  margin: 0 -21px;
 }
 
 .about-me-content {
@@ -310,6 +311,7 @@ nav {
 .about-me-img {
   width: 90%;
   object-fit: contain;
+  border-image: none;
 }
 
 /** About Me section **/
@@ -322,7 +324,7 @@ nav {
 
 #Projects{
   padding: 60px 9px;
-  margin: 0 -20px;
+  margin: 0 -21px;
   background-color: var(--deep-space-blue);
 }
 
