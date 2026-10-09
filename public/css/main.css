@@ -5,6 +5,15 @@
   --deep-space-blue: #022845ff;
   --baltic-blue: #365C86ff;
   --yale-blue: #1A4164ff;
+  --oxford-navy: #0F3660ff;
+  --charcoal-blue: #293D52ff;
+  --prussian-blue: #0B1E39ff;
+  --prussian-blue-2: #000E28ff;
+  --prussian-blue-3: #09234Aff;
+  --french-blue: #35487Dff;
+  --oxford-navy: #0F3660ff;
+  --lavender-grey: #ABA9CDff;
+  --tropical-teal: #34AFB9ff;
 }
 
 /**** colours ****/
@@ -31,7 +40,7 @@ h2 {
   font-size: 28px;
   line-height: 31px;
   font-family: 'Roboto Condensed', sans-serif;
-  color: #042c4a;
+  color: var(--tropical-teal);
 }
 
 h3 {
@@ -120,7 +129,16 @@ a {
   border: 2px solid var(--blue-green);
 }
 
+.footer-link {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 2px solid var(--ocean-blue);
+  color: var(--deep-space-blue);
+}
+
 /**** components ****/
+
 
 
 
@@ -200,7 +218,7 @@ nav {
 .hero-content {
   position: relative;
   background-color: #fff;
-  opacity: 0.2;
+  opacity: 0.4;
   width: 99%;
   bottom: 0;
   left: 0px;
@@ -230,6 +248,10 @@ nav {
 .skills-heading {
   padding: 25px;
   background-color: var(--blue-green);
+}
+
+.skills-heading > h2 {
+  color: var(--deep-space-blue);
 }
 
 
@@ -302,6 +324,7 @@ nav {
 
 .about-me-text-content > h2 {
    text-align: center;
+   color: var(--blue-green);
 }
 
 .about-me-text-content > p {
@@ -383,4 +406,41 @@ nav {
   width: 100%;
   border-radius: 5px;
 }
+
+/** projects section **/
+
+
+
+
+/** footer section **/
+
+footer {
+  padding: 60px 9px;
+  margin: 0 -21px;
+  background-color: var(--baltic-blue);
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-items > h1 {
+  margin: 0;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fa-github,
+.fa-linkedin {
+  font-size: 20px;
+  color: #fff;
+}
+
+
 
