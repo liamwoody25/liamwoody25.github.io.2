@@ -80,7 +80,7 @@ p {
   border-radius: 25px;
   bottom: 29px;
   transform: translate(13%, -50%);
-  transition-property: transform,;
+  transition-property: transform;
   transition-duration: .9s;
 }
 
@@ -238,7 +238,7 @@ nav {
 
 /** skills section **/
 
-#skills-section {
+#Skills {
   background-color: var(--yale-blue);
   padding: 49px 0px 29px 0px;
   margin: -1px -21px;
@@ -317,7 +317,7 @@ nav {
 .about-me-content {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: 25px;
 } 
 
@@ -358,6 +358,10 @@ nav {
 
 .project-text-content > p {
   color: #DEE2E6;
+}
+
+.project-cards-carousel {
+  overflow: hidden;
 }
 
 .project-cards {
@@ -430,6 +434,14 @@ footer {
   margin: 0;
 }
 
+.footer-content {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 20px;
+}
+
 .footer-icons {
   display: flex;
   align-items: center;
@@ -440,6 +452,145 @@ footer {
 .fa-linkedin {
   font-size: 20px;
   color: #fff;
+}
+
+/** footer section **/
+
+
+
+
+/**** media queries tablet ****/
+
+@media screen and (min-width:768px) {
+
+/*** typeography  ***/
+
+h2 {
+  font-size: 28px;
+}
+
+  
+
+/** components  **/
+
+.ham-burger {
+  display: none;
+}
+
+  
+/** body section **/
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/** body section **/
+
+
+
+/**** header ****/
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.left-screen-menu {
+  display: flex;
+  position: static;
+  align-items: center;
+}
+
+/**** header ****/
+
+
+
+/**** main ****/
+
+/** hero section **/
+
+.hero-section {
+  display: flex;
+  justify-content: left;
+  padding: 60px 0;
+  background-size: 100%;
+}
+
+.hero-content {
+  position: relative;
+  width: 44%;
+}
+
+/** hero section **/
+
+
+
+
+/** skills section **/
+
+
+#skills-section {
+  padding: 40px 0 40px 0;
+}
+
+
+
+/** about me section **/
+
+#About-Me {
+  /* padding: 35px; */
+  box-sizing: border-box;
+}
+
+.about-me-content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.about-me-img {
+  width: 45%;
+}
+
+/** about me section **/
+
+
+
+/** projects section **/
+
+ #Projects {
+  padding: 30px;
+ }
+
+ .project-cards {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .project-cards .project-card {
+  width: 40%;
+ }
+
+
+/** footer section **/
+
+
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.footer-content {
+  display: flex;
+  gap: 30px;
+}
+
+
+
 }
 
 
