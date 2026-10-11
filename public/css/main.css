@@ -18,7 +18,11 @@
 
 /**** colours ****/
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 /**** typography ****/
@@ -111,6 +115,12 @@ p {
 a {
   text-decoration: none;
   color: #fff;
+  transition-property: transform;
+  transition-duration: .6s;
+}
+
+a:hover {
+  transform: scale(1.2);
 }
 
 .links {
@@ -268,7 +278,7 @@ nav {
 .bottom-tools-slide {
   display: inline-flex;
   align-items: center;
-  gap: 18px;
+  margin: 0 40px;
   animation: slide-right 10s infinite;
 }
 
@@ -311,7 +321,7 @@ nav {
 /** About Me section **/
 
 #About-Me {
-  background-color: var(--baltic-blue);
+  background-color: var(--charcoal-blue);
   padding: 60px 9px;
   margin: 0 -21px;
 }
@@ -402,7 +412,7 @@ nav {
   position: absolute;
   z-index: 1;
   background-color: #DEE2E6;
-  transition-duration: .8s;
+  transition-duration: .9s;
   transition-timing-function: ease-in-out;
  
 }
@@ -538,6 +548,14 @@ header {
   padding: 40px 0 40px 0;
 }
 
+.top-skills {
+  width: 100%;
+}
+
+.html5-icon {
+  height: 50px;
+}
+
 
 
 /** about me section **/
@@ -627,6 +645,14 @@ h2 {
   color: #DEE2E6;
 }
 
+.icon-link {
+  font-size: 20px;
+}
+
+.fa-github,
+.fa-linkedin {
+  font-size: 30px;
+} 
 
 
 /**** body ****/
@@ -712,9 +738,11 @@ header {
 
 /**** projects-section  ****/
 
-footer {
-  
+.nav-items {
+  display: flex;
+  justify-content: space-around;
 }
+
 
 
 
