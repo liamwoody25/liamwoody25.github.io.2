@@ -729,7 +729,11 @@ header {
 }
 
 .about-me-text-content {
-  width: 50%;
+  width: 43%;
+}
+
+.about-me-text-content > p {
+  line-height: 25px;
 }
 
 /**** About Me-section  ****/
@@ -753,17 +757,13 @@ header {
 
 
 
+
 /**** projects-section  ****/
 
 .nav-items {
   display: flex;
   justify-content: space-around;
 }
-
-
-
-
-
 
 
 }
