@@ -688,6 +688,7 @@ header {
   background-size: 100%;
   box-sizing: content-box;
   padding: 104px 0;
+  background-image: url(/public/assets/images/hero/david-underland.jpg);
 }
 
 /**** hero-section  ****/
