@@ -147,6 +147,14 @@ a:hover {
   color: var(--deep-space-blue);
 }
 
+.icon-link {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
 /**** components ****/
 
 
@@ -278,8 +286,8 @@ nav {
 .bottom-tools-slide {
   display: inline-flex;
   align-items: center;
-  margin: 0 40px;
-  animation: slide-right 10s infinite;
+  gap: 20px;
+  animation: slide-right 10s infinite linear;
 }
 
 
