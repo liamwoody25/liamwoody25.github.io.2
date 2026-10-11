@@ -144,7 +144,7 @@ a:hover {
   font-size: 15px;
   border-radius: 8px;
   border: 2px solid var(--ocean-blue);
-  color: var(--deep-space-blue);
+  color: #DEE2E6;
 }
 
 .icon-link {
@@ -153,6 +153,10 @@ a:hover {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+
+.icon-link > p {
+  color: #DEE2E6;
 }
 
 /**** components ****/
@@ -199,7 +203,7 @@ header {
   justify-content: center;
   right: -355px;
   position: fixed;
-  top: 66px;
+  top: 49px;
   transition-property: right;
   transition-duration: .9s;
   transition-timing-function: ease-in-out;
@@ -232,7 +236,7 @@ nav {
   display: flex;
   justify-content: center;  
   margin: 0px -21px;
-  padding: 0px 0px 0px 2px;
+  padding: 47px 0px 0px 2px;
 }
 
 .hero-content {
@@ -286,7 +290,7 @@ nav {
 .bottom-tools-slide {
   display: inline-flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   animation: slide-right 10s infinite linear;
 }
 
@@ -405,7 +409,7 @@ nav {
   justify-content: center;
   position: absolute;
   flex-wrap: wrap;
-  width: 97%;
+  width: 99%;
   border-radius: 5px;
   bottom: 2px;
   z-index: -1;
