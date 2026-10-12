@@ -27,13 +27,10 @@
 
 /**** typography ****/
 
-* {
-  font-family: 'Clarity-city', sans-serif;
-}
 
 
 h1 {
-  color: var(--ocean-blue);
+  color: var(--blue-green);
   font-size: 30px;
   font-family: 'Roboto Condensed', sans-serif;
   margin-left: 10px;
@@ -164,6 +161,8 @@ a:hover {
 
 
 
+
+
 /**** body ****/
 
 .container {
@@ -173,7 +172,7 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  font-family: 'Clarity-city', sans-serif;
   background-color: var(--charcoal-blue);
 }
 
@@ -189,7 +188,7 @@ header {
   align-items: center;
   background-color: var(--deep-space-blue);
   margin: 0 -19px;
-  box-shadow: 0 0px 4px 4px black;
+  box-shadow: 0 0px 15px -2px black;
   bottom: 502px;
   gap: 10px;
 }
@@ -242,7 +241,7 @@ nav {
 .hero-content {
   position: relative;
   background-color: #fff;
-  opacity: 0.4;
+  opacity: 0.5;
   width: 99%;
   bottom: 0;
   left: 0px;
@@ -456,6 +455,7 @@ footer {
 
 .nav-items > h1 {
   margin: 0;
+  color: var(--tropical-teal);
 }
 
 .footer-content {
@@ -553,8 +553,8 @@ header {
 
 
 
-/** skills section **/
 
+/** skills section **/
 
 #skills-section {
   padding: 40px 0 40px 0;
@@ -573,7 +573,7 @@ header {
 /** about me section **/
 
 #About-Me {
-  /* padding: 35px; */
+  padding: 35px;
   box-sizing: border-box;
 }
 
