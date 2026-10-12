@@ -142,6 +142,11 @@ a:hover {
   border-radius: 8px;
   border: 2px solid var(--ocean-blue);
   color: #DEE2E6;
+  transition-property: transform;
+}
+
+.footer-link:hover {
+  transform: scale(1.1);
 }
 
 .icon-link {
@@ -152,9 +157,16 @@ a:hover {
   gap: 5px;
 }
 
-.icon-link > p {
+.icon-link  {
+  transition-property: transform;
   color: #DEE2E6;
 }
+
+.icon-link:hover {
+  transform: scale(1.1);
+}
+
+
 
 /**** components ****/
 
@@ -173,7 +185,7 @@ a:hover {
 
 body {
   font-family: 'Clarity-city', sans-serif;
-  background-color: var(--charcoal-blue);
+  background-color: var(--oxford-navy);
 }
 
 
@@ -229,21 +241,20 @@ nav {
 /** hero section **/
 
 .hero-section {
-  background-image: url(/public/assets/images/hero/david-underland.jpg);
+  /* background-image: url(/public/assets/images/hero/david-underland.jpg); */
   background-size: 500px;
   background-repeat: no-repeat;
-  display: flex;
   justify-content: center;  
   margin: 0px -21px;
-  padding: 47px 0px 0px 2px;
+  /* padding: 47px 0px 0px 2px; */
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
   background-color: #fff;
   opacity: 0.5;
   width: 99%;
-  bottom: 0;
+  bottom: 301px;
   left: 0px;
   text-align: center;
 }
@@ -344,7 +355,6 @@ nav {
   gap: 25px;
 } 
 
-
 .about-me-text-content > h2 {
    text-align: center;
    color: var(--blue-green);
@@ -371,7 +381,7 @@ nav {
 #Projects{
   padding: 60px 9px;
   margin: 0 -21px;
-  background-color: var(--deep-space-blue);
+  background-color: var(--prussian-blue);
 }
 
 .project-text-content {
@@ -444,7 +454,7 @@ nav {
 footer {
   padding: 60px 9px;
   margin: 0 -21px;
-  background-color: var(--baltic-blue);
+  background-color: var(--deep-space-blue);
 }
 
 .nav-items {
@@ -699,7 +709,7 @@ header {
 .hero-section {
   background-size: 100%;
   padding: 104px 0;
-  background-image: url('/public/assets/images/hero/david-underland.jpg');
+  /* background-image: url('/public/assets/images/hero/david-underland.jpg'); */
 }
 
 .hero-content {
