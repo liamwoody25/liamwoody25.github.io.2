@@ -254,7 +254,7 @@ nav {
   background-color: #fff;
   opacity: 0.5;
   width: 99%;
-  bottom: 301px;
+  top: 134px;
   left: 0px;
   text-align: center;
 }
@@ -712,9 +712,8 @@ header {
 
 .hero-content {
   padding: 55px 0;
-  position: absolute;
-  left: 389px;
-  bottom: 534px;
+  left: 396px;
+  top: 239px;
   box-sizing: content-box;
 }
 
