@@ -547,14 +547,14 @@ header {
 /** hero section **/
 
 .hero-section {
-  display: flex;
+  /* display: flex; */
   justify-content: left;
-  padding: 60px 0;
+  /* padding: 60px 0; */
   background-size: 100%;
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
   width: 44%;
 }
 
@@ -708,12 +708,13 @@ header {
 
 .hero-section {
   background-size: 100%;
-  padding: 104px 0;
-  /* background-image: url('/public/assets/images/hero/david-underland.jpg'); */
 }
 
 .hero-content {
   padding: 55px 0;
+  position: absolute;
+  left: 389px;
+  bottom: 534px;
   box-sizing: content-box;
 }
 
