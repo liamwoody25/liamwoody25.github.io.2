@@ -36,6 +36,7 @@ h1 {
   margin-left: 10px;
 }
 
+
 h2 {
   margin: 0;
   font-size: 28px;
@@ -44,11 +45,13 @@ h2 {
   color: var(--tropical-teal);
 }
 
+
 h3 {
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
   color: #7dc5de;
 }
+
 
 p {
   line-height: 20px;
@@ -132,7 +135,7 @@ a:hover {
   text-align: center;
   font-size: 12px;
   border-radius: 8px;
-  color: var(--blue-green);
+  color: #7dc5de;
   border: 2px solid var(--blue-green);
 }
 
@@ -237,6 +240,7 @@ nav {
 
 
 /**** main section ****/
+
 
 /** hero section **/
 
@@ -418,21 +422,22 @@ nav {
   justify-content: center;
   position: absolute;
   flex-wrap: wrap;
-  width: 99%;
+  width: 100%;
   border-radius: 5px;
-  bottom: 2px;
+  bottom: -1px;
   z-index: -1;
-  left: 1px;
+  left: 0;
 }
 
 .project-content > p {
   text-align: center;
+  color: #FCF8F6;
 }
 
 .project-card:hover .project-content {
   position: absolute;
   z-index: 1;
-  background-color: #DEE2E6;
+  background-color: var(--baltic-blue);
   transition-duration: .9s;
   transition-timing-function: ease-in-out;
  
@@ -718,6 +723,7 @@ header {
 }
 
 /**** hero-section  ****/
+
 
 
 
