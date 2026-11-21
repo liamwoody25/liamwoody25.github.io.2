@@ -54,7 +54,7 @@ h3 {
 
 
 p {
-  line-height: 20px;
+  line-height: 24px;
   margin-bottom: 4px;
   font-size: 16px;
 }
@@ -304,6 +304,7 @@ nav {
 .bottom-tools-slide {
   display: inline-flex;
   align-items: center;
+  margin-left: 20px;
   gap: 30px;
   animation: slide-right 10s infinite linear;
 }
@@ -397,10 +398,6 @@ nav {
   color: #DEE2E6;
 }
 
-.project-cards-carousel {
-  overflow: hidden;
-}
-
 .project-cards {
   display: flex;
   flex-wrap: wrap;
@@ -409,10 +406,15 @@ nav {
 }
 
 .project-cards .project-card {
-  width: 98%;
+  width: 91%;
   background-color: #DEE2E6;
   border-radius: 5px;
   position: relative;
+  transition-duration: 0.8s ;
+}
+
+.project-cards .project-card:hover {
+  transform: scale(1.05);
 }
 
 
