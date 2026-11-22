@@ -255,17 +255,25 @@ nav {
 
 .hero-content {
   position: absolute;
-  background-color: #fff;
-  opacity: 0.5;
+  background-color: var(--oxford-navy);
+  opacity: 0.8;
   width: 99%;
   top: 134px;
   left: 0px;
   text-align: center;
 }
 
+.hero-content > h2 {
+  color: #FCF8F6;
+}
+
+.hero-content > p {
+  color: #FCF8F6;
+}
 .hero-img {
   width: 100%;
   object-fit: cover;
+  opacity: 0.7;
 }
 
 /** hero section **/
