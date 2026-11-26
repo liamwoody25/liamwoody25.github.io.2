@@ -137,6 +137,11 @@ a:hover {
   border-radius: 8px;
   color: #7dc5de;
   border: 2px solid var(--blue-green);
+  transition-duration: .8s;
+}
+
+.project-content .link:hover {
+  transform: scale(1.06);
 }
 
 .footer-link {
