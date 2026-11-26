@@ -499,7 +499,7 @@ footer {
 .footer-icons {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .fa-github,
@@ -620,6 +620,8 @@ header {
 
 
 
+
+
 /** projects section **/
 
  #Projects {
@@ -638,7 +640,6 @@ header {
 
 /** footer section **/
 
-
 .nav-items {
   display: flex;
   flex-wrap: wrap;
@@ -649,8 +650,10 @@ header {
 
 .footer-content {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
+
+/** footer section **/
 
 }
 
@@ -688,7 +691,7 @@ h2 {
 }
 
 .icon-link {
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .fa-github,
@@ -795,6 +798,9 @@ header {
   display: flex;
   justify-content: space-around;
 }
+
+/**** projects-section  ****/
+
 
 
 }
